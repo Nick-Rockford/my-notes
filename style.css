@@ -1,0 +1,18 @@
+.start-block{
+
+
+}
+.start-block div{
+    justify-self: center;
+
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 2em;
+}
+
+h1, h2{
+    grid-column: span 2;
+}
